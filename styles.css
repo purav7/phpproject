@@ -1,0 +1,118 @@
+body, h1, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('images/di.jpg');
+  display: flex;
+  flex-direction: column;
+  min-height: 130vh;
+  color:#efecec;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #ecf1f2;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+img{
+  border-radius: 5px;
+  border-width: 20px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin-top: auto;
+  
+}
+.name{
+  margin-top: 2%;
+  margin-left: 10%;
+}
+.head{
+  text-align: center;
+  margin-top: 5%;
+
+}
+.pas{
+  margin-top: 2%;
+  margin-left: 10%;
+}
+.product{
+  margin-top: 2%;
+  margin-left: 10%;
+}
+.phone{
+  margin-top: 2%;
+  margin-left: 10%;
+}
+#head{
+  margin: 15px;
+}
+.button{
+  margin-left: 10%;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 0%;
+}
+.email{
+  margin-top: 2%;
+  margin-left: 10%;
+}
+.image{
+  margin-top: 2%;
+  margin-left: 10%;
+}
+main {
+flex: 1;
+position: absolute;
+top: 70%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 50%;
+}
+input[type="submit"] {
+  background-color: #dce5dc;
+  color: rgb(15, 14, 14);
+  cursor: pointer;
+  border-radius: 5px;
+}
+input[type="email"],[type="number"],[type="text"],[type="password"] {
+  color: rgb(17, 17, 17);
+  cursor: pointer;
+  width: 50%;
+  height: 25px;
+}
+.heading{
+  text-align: center;
+}
